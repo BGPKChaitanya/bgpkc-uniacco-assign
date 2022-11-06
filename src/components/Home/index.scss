@@ -1,0 +1,50 @@
+@import "../Utils/styles.scss";
+.home {
+  @include displayFlex(row, space-between, center);
+
+  &-outer {
+    width: 90vw;
+    margin: auto;
+  }
+
+  &-text {
+    margin: 15px;
+    font-family: "Roboto";
+    font-size: 32px;
+    font-weight: 700;
+  }
+
+  &-arrow {
+    border: 2px solid black;
+    border-radius: 100%;
+    padding: 8px;
+    margin: 5px;
+    font-size: 15px;
+    font-weight: 600;
+    cursor: pointer;
+    border-color: rgb(216, 212, 212);
+  }
+}
+
+.filter {
+  // @include displayFlex(row, flex-start, center);
+  &-three {
+    border-right: solid;
+    border-width: 1px;
+    border-color: grey;
+  }
+
+  &-button {
+    border-radius: 20px;
+    padding: 10px;
+    background-color: transparent;
+    border-width: 1px;
+    border-color: rgb(216, 212, 212);
+    margin-right: 15px;
+  }
+  &-button:hover {
+    border-width: bold;
+    border-color: #000;
+    cursor: pointer;
+  }
+}

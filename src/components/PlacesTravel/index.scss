@@ -1,0 +1,11 @@
+@import "../Utils/styles.scss";
+
+.container {
+  @include displayFlex(row, flex-start, center);
+}
+.home-text1 {
+  margin: 15px;
+  font-family: "Roboto";
+  font-size: 24px;
+  font-weight: 700;
+}

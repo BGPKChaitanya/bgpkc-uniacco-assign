@@ -1,0 +1,26 @@
+.player {
+  margin: 5px;
+  width: 250px;
+}
+
+.rating {
+  margin: 5px 0px 5px 0px;
+  font-weight: 400;
+  font-family: "roboto";
+  color: black;
+}
+
+.city {
+  color: grey;
+  font-weight: 200;
+}
+
+.des {
+  color: rgb(48, 43, 43);
+  font-weight: 200;
+  margin: 5px 0px 5px 0px;
+}
+
+.price {
+  font-weight: bold;
+}/*# sourceMappingURL=index.css.map */

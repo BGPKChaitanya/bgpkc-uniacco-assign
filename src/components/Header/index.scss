@@ -1,0 +1,43 @@
+@import "../Utils/styles.scss";
+
+.header {
+  padding: 10px 0px 10px 0px;
+  width: 90vw;
+  margin: auto;
+  position: relative;
+  @include displayFlex(row, space-between, center);
+
+  &-outer {
+    border: 1px solid rgba(205, 208, 208, 0.778);
+  }
+
+  &-become {
+    padding: 10px;
+    border-radius: 25px;
+    font-weight: 600;
+  }
+
+  &-become:hover {
+    background-color: rgba(218, 225, 225, 0.836);
+    cursor: pointer;
+  }
+
+  &-logo {
+    height: 30px;
+  }
+
+  &-profile {
+    @include displayFlex(row, space-between, center);
+  }
+
+  &-pro {
+    @include displayFlex(row, space-between, center);
+    border: 1px solid rgb(180, 174, 174);
+    border-radius: 25px;
+    padding: 3px;
+  }
+  &-pro:hover {
+    box-shadow: 2px 3px 2px 0px rgb(184, 181, 181);
+    cursor: pointer;
+  }
+}

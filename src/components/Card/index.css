@@ -1,0 +1,36 @@
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin: 10px;
+  padding: 15px;
+  border-radius: 15px;
+  background-size: cover;
+  height: 350px;
+}
+.card-inner {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+  height: 100%;
+  border: solid;
+  padding: 15px;
+  border-radius: 15px;
+}
+.card-description {
+  padding: 0px;
+}
+.card-col {
+  margin: 0px;
+  color: #f2eeee;
+  font-family: "Roboto";
+}
+.card-text {
+  margin: 5px 0px 5px 0px;
+  font-family: "Roboto";
+  color: #f2eeee;
+  width: 75%;
+  font-weight: 500;
+}/*# sourceMappingURL=index.css.map */
